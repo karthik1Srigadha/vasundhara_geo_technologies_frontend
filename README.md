@@ -6,7 +6,7 @@ This project is designed as a **practice + portfolio showcase**.
 ---
 
 ## 🌐 Live Demo
-👉 https://your-project-name.vercel.app
+👉 https://vasundhara-geo-technologies-fronten.vercel.app/
 
 ---
 
