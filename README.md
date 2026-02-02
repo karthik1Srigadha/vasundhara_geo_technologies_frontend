@@ -1,16 +1,72 @@
-# React + Vite
+# 🚀 React Mini Projects Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of interactive React mini-applications built to demonstrate core React concepts, clean UI design, and real-world functionality.  
+This project is designed as a **practice + portfolio showcase**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+👉 https://your-project-name.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 📋 **Todo Application**
+  - Add, delete, and mark tasks as complete
+  - Priority based tasks (Low / Medium / High)
+  - LocalStorage persistence
+  - Filter tasks (All / Active / Completed)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧾 **User Form**
+  - Controlled inputs
+  - Form validation
+  - Password show/hide toggle
+  - Displays submitted data
+
+- 📊 **Multi Progress Bar**
+  - Dynamic progress bars
+  - Average progress calculation
+  - Color changes based on progress level
+
+- 🔍 **Live Search**
+  - Real-time filtering
+  - Highlighted search matches
+
+- ⏱ **Countdown Timer**
+  - Start / Pause / Resume / Reset
+  - Persistent timer using LocalStorage
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS + Custom CSS
+- **Routing:** React Router DOM
+- **State Management:** React Hooks
+- **Storage:** LocalStorage
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+```txt
+src/
+│── components/
+│   ├── Todo/
+│   ├── UserForm/
+│   ├── ProgressBar/
+│   ├── Search/
+│   └── Timer/
+│
+│── hooks/
+│   └── useLocalStorage.js
+│
+│── pages/
+│   └── Home.jsx
+│
+│── App.jsx
+│── main.jsx
+│── index.css
